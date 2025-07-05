@@ -1,0 +1,28 @@
+# 얼굴 이미지 분석 모델 파일 무시
+mmod_human_face_detector.dat
+shape_predictor_68_face_landmarks.dat
+shape_predictor_68_face_landmarks.dat.bz2
+
+# OpenCV 관련 파일들 (NuGet으로 다운로드)
+OpenCvSharpExtern.dll
+opencv_videoio_ffmpeg*.dll
+opencv_videoio_ffmpeg*.so
+opencv_videoio_ffmpeg*.dylib
+
+# Dlib 관련 네이티브 파일들
+DlibDotNetNative.dll
+DlibDotNetNativeDnn.dll
+libDlibDotNetNative.so
+libDlibDotNetNativeDnn.so
+libDlibDotNetNative.dylib
+libDlibDotNetNativeDnn.dylib
+
+# 배포 관련 폴더 및 파일들
+publish_output/
+APR_Rudolph_Installer.zip
+*.exe
+*.zip
+
+# 빌드 결과물 폴더들
+bin/
+obj/ 
